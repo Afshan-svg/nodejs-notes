@@ -1,0 +1,49 @@
+1. What are node modules?
+Reusable blocks of code that encapsulate specific functionality. These modules are units of code that can be easily shared and reused across different Node.js applications. Node.js uses the CommonJS module system, which allows developers to define modules using module.exports and import them using require().
+
+2. npm install -g 
+To install globally. 
+
+3. Dev dependency
+In Node.js, a dev dependency is a package that's only needed during the development process, not for running the application in production. These dependencies include tools like testing frameworks, code linting libraries, or build scripts. 
+
+4. package lock.json 
+It locks down the version of each dependency and its transitive dependencies, ensuring that subsequent installations use the exact same versions. This helps in maintaining consistency across different environments
+
+5. Module wrapper function is automatically added by default
+exports, require, __filename, and __dirname
+
+6. os module use 
+The os module in Node.js provides a set of utility functions for interacting with the operating system. It allows you to access information about the current operating system
+
+7.path module use 
+The path module in Node.js provides utilities for working with file and directory paths.
+
+// Nodejs is non blocking io model hence when we read a file for an example it will execute the later program first than reading
+//If we want it to intentionally block use readFileSync
+
+8. Asynchronous operations in programming refer to tasks that do not block the execution of subsequent code.
+
+9. Promises in JavaScript provide a way to handle asynchronous operations more efficiently. 
+
+10. Difference between commonjs modules and ecmascript(es6) modules
+in e6 we use import and export 
+in commonjs we use module.export
+
+11. Node events
+In Node.js, the "events" module allows you to create, emit, and handle custom events. It enables communication between different parts of your application by defining events and listeners.
+
+//Set timeout does'nt block the code
+
+12. Create server using nodejs
+Check the website.js file
+
+13. Nodemon
+Nodemon is a utility tool used during development in Node.js applications. It automatically restarts the Node.js application when changes are detected in the source code. 
+
+// We will create a file using fs module index.html and then read file from our directory and display it to user whenever the user enters /hello for example 
+// instead of the if else ladder which will be hectic we will be using express.js
+
+14. Deployment of nodejs
+Heroku, AWS, Vercel etc
+
